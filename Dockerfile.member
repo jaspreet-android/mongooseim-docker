@@ -1,4 +1,4 @@
-FROM phusion/baseimage:latest-amd64
+FROM phusion/baseimage:bionic-1.0.0-amd64
 
 COPY ./member/start.sh /start.sh
 COPY ./member/mongooseim.tar.gz mongooseim.tar.gz
